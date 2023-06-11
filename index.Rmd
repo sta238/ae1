@@ -5,11 +5,10 @@ runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 library(learnr)
 library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE)
 options(digits = 3)
-
 gradebook <- read.csv("https://raw.githubusercontent.com/sta238/data/main/gradebook.csv")
 ```
 
