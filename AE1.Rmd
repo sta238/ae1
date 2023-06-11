@@ -20,7 +20,7 @@ Preview the data using `glimpse`.
 ```{r preview, exercise=TRUE}
 
 ```
-`glimpse()` is a quick way to see the variable names in your data, get the data types of each column, and view the first few entries in the table. Make sure you u
+`glimpse()` is a quick way to see the variable names in your data, get the data types of each column, and view the first few entries in the table. 
 
 Although the gradebook data has been set up with this exercise, it is also available on GitHub. Read in the gradebook raw data from GitHub, give it a different name, and show that it looks to be the same `gradebook` data.
 ```{r load_data, exercise=TRUE}
@@ -60,7 +60,7 @@ Get a 5-number summary of all the assessments in the gradebook.
 ```
 
 
-Compute the mean and median of the exam. Are they equal? How do they compare? 
+Compute the mean and median of the exam. How do they compare? Is it true that the mean is less than the median? 
 ```{r compare_centers, exercise=TRUE}
 
 
