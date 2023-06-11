@@ -59,12 +59,17 @@ Get a 5-number summary of all the assessments in the gradebook.
 ```
 
 
-Compute the mean and median of the exam. How do they compare? Is it true that the mean is less than the median? 
+Compute the mean and median of the exam. How do they compare? True or false: The mean is less than the median?
 ```{r compare_centers, exercise=TRUE}
 
 
 ```
 
+Compute the sample variance, the standard deviation, and the median absolute deviation for the exam. 
+```{r compare_variability, exercise=TRUE}
+
+
+```
 
 ## Graphical summaries
 
@@ -95,9 +100,9 @@ assignments_long %>%
 Some sections of this code may be new to you, particularly the last 3 lines do. Try looking them up and playing around with different values to see what happens. It is particularly useful to know what `aes(y = after_stat(prop))` does. 
 
 
-Plot the exam scores as a histogram and a KDE on the same plot. The steps are broken down below to add each layer to the plot, but some code needs to be filled in. Try commenting any code you fill in.
+Plot the exam marks as a histogram and a KDE on the same plot. The steps are broken down below to add each layer to the plot, but some code needs to be filled in. Try commenting any code you fill in.
 ```{r layers, exercise=TRUE}
-# Create a (named) plot of the scores in the gradebook data. Choose a theme.
+# Create a (named) plot of the marks in the gradebook data. Choose a theme.
 plot <- 
 
 # Add a histogram layer to `plot` using the optimal binwidth.
@@ -125,5 +130,4 @@ tests_long <-
   
 
 ```
-
 
