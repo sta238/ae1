@@ -125,7 +125,7 @@ The supplemental text shows another method of plotting KDEs that doesn't use `gg
 
 
 If we want to compare the distribution of the final exam marks to the distribution of the midterm marks, it would be helpful to see both densities on the same plot. To do that, we have to transform the data in the same way that we had to transform the assignment marks to plot them. Adapt the code for creating `assignments_long` to transform the test marks into a long format. Use `tests_long` to plot both densities on the same plot using `geom_density`. Hint: Investigate into the `colour` argument in `ggplot`.
-```{r plots_continuous, echo=FALSE, exercise=TRUE}
+```{r plots_continuous, exercise=TRUE}
 tests_long <-
   
 
